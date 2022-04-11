@@ -26,6 +26,9 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     implementation("io.micronaut:micronaut-validation")
 
+    //graphql
+    implementation("io.micronaut.graphql:micronaut-graphql")
+
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
 
 }
